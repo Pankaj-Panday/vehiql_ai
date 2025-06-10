@@ -170,7 +170,7 @@ export default async function Home() {
             </Button>
             <SignedOut>
               <Button size="lg" asChild>
-                <Link className="/sign-up">Sign up now</Link>
+                <Link href="/sign-up">Sign up now</Link>
               </Button>
             </SignedOut>
           </div>
